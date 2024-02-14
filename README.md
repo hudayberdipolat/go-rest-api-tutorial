@@ -11,3 +11,7 @@
 4. PUT /users/:id --fully update user        status Code --204/200,404,,400,500
 5. PUTCH /users/:id --partially update user  status Code --204/200,404,,400,500
 6. DELETE /users/:id --delete user by id     status Code --200,404,400 
+
+# Logger 
+
+github.com/sirupsen/logrus
