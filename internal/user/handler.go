@@ -14,10 +14,10 @@ const (
 )
 
 type handler struct {
-	logger logging.Logger
+	logger *logging.Logger
 }
 
-func NewUserHandler(logger logging.Logger) handlers.Handler {
+func NewUserHandler(logger *logging.Logger) handlers.Handler {
 	return &handler{
 		logger: logger,
 	}
